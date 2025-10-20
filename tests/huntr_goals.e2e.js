@@ -43,7 +43,7 @@ async function huntrGoals(driver) {
         5000
     );
     await driver.wait(until.elementIsVisible(plusButton), 10_000);
-    await plusButton.click();
+    await pause(10_000);
 
     let buttonCreate = await driver.wait(
         until.elementLocated(
