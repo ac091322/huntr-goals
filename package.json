@@ -1,0 +1,27 @@
+{
+  "name": "selenium-huntr-script",
+  "version": "1.0.0",
+  "description": "Script for automating Huntr goals",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "start": "node index.js"
+  },
+  "type": "module",
+  "keywords": [
+    "automation",
+    "huntr",
+    "goals"
+  ],
+  "author": "Alan Chang alanc091322@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "selenium-webdriver": "^4.37.0"
+  },
+  "devDependencies": {
+    "chai": "^6.2.0",
+    "chromedriver": "^141.0.3",
+    "mocha": "^11.7.4"
+  }
+}
