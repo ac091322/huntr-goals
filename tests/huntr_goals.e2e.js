@@ -1,10 +1,6 @@
 import { By, until } from "selenium-webdriver";
 import "dotenv/config";
-
-
-function pause(ms) {
-    return new Promise(resolve => setTimeout(resolve, ms));
-}
+import { pause } from "../utils/pause";
 
 
 async function huntrGoals(driver) {
