@@ -1,6 +1,5 @@
 import { Builder } from "selenium-webdriver";
 import { huntrGoals } from "./tests/huntr_goals.e2e.js";
-import "dotenv/config";
 
 
 (async function main() {
