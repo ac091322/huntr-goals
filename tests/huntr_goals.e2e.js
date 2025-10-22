@@ -106,7 +106,7 @@ async function huntrGoals(driver) {
         }
     }
 
-    console.log("🏁  Congrats, you've finished all goals for the week! 🏁");
+    console.log(`🏁  Congrats, you've "finished" all of this week's goals! 🏁`);
     await pause(3_000);
 }
 
