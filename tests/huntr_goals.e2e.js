@@ -46,6 +46,7 @@ async function huntrGoals(driver) {
             until.elementLocated(By.xpath(currentGoalButtonXpath)),
             5_000
         );
+
         await driver.wait(until.elementIsVisible(currentGoalButton), 10_000);
 
         if (goal === "Universal Goal #1") {
